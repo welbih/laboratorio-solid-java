@@ -1,0 +1,35 @@
+
+Arquivo                                 Linhas MetodosPublicos MetodosPrivados CondicionaisIf ConstrucoesConcretas Depe
+                                                                                                                   nden
+                                                                                                                   cias
+                                                                                                                   Conc
+                                                                                                                   reta
+                                                                                                                      s
+-------                                 ------ --------------- --------------- -------------- -------------------- ----
+cliente/Cliente.java                        13               0               0              0                    0    0
+cliente/Endereco.java                        8               0               0              0                    0    0
+desconto/Cupom.java                         12               0               0              0                    0    0
+estoque/EstoqueMemoria.java                 21               3               0              2                    3    0
+fachada/LojaService.java                   540              31              13             67                   61    9
+fiscal/EmissorNotaFiscal.java               22               3               0              0                    1    0
+frete/CalculadoraFrete.java                 19               1               0              7                    1    0
+notificacao/DespachanteNotificacao.java     11               2               0              0                    0    0
+notificacao/NotificadorEmail.java           19               3               0              0                    2    0
+notificacao/NotificadorSms.java             19               3               0              0                    2    0
+notificacao/OperacoesNotificacao.java        7               0               0              0                    0    0
+pagamento/GatewayPagamentoSimulado.java     62               7               2              7                    8    0
+pagamento/OperacoesPagamento.java           12               0               0              0                    0    0
+pagamento/Pagamento.java                    46               8               0              3                    7    0
+pagamento/PagamentoBoleto.java              30               4               0              2                    2    0
+pagamento/PagamentoCartao.java              16               2               0              2                    1    0
+pagamento/PagamentoPix.java                 28               4               0              4                    3    0
+pedido/Carrinho.java                         9               0               0              0                    1    0
+pedido/Item.java                            11               0               0              0                    0    0
+pedido/Pedido.java                          24               0               0              0                    1    0
+pedido/RepositorioPedidoMemoria.java        21               3               0              1                    2    0
+produto/Produto.java                        11               0               0              0                    0    0
+relatorio/RelatorioVendas.java              20               1               0              1                    0    0
+
+
+Arquivos Java de producao: 23
+Contagens lexicais: incluem bibliotecas e excecoes em new; nao provam conformidade SOLID.

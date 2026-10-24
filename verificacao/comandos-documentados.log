@@ -1,0 +1,567 @@
+
+Arquivo                                 Linhas MetodosPublicos MetodosPrivados CondicionaisIf ConstrucoesConcretas Depe
+                                                                                                                   nden
+                                                                                                                   cias
+                                                                                                                   Conc
+                                                                                                                   reta
+                                                                                                                      s
+-------                                 ------ --------------- --------------- -------------- -------------------- ----
+cliente/Cliente.java                        13               0               0              0                    0    0
+cliente/Endereco.java                        8               0               0              0                    0    0
+desconto/Cupom.java                         12               0               0              0                    0    0
+estoque/EstoqueMemoria.java                 21               3               0              2                    3    0
+fachada/LojaService.java                   540              31              13             67                   61    9
+fiscal/EmissorNotaFiscal.java               22               3               0              0                    1    0
+frete/CalculadoraFrete.java                 19               1               0              7                    1    0
+notificacao/DespachanteNotificacao.java     11               2               0              0                    0    0
+notificacao/NotificadorEmail.java           19               3               0              0                    2    0
+notificacao/NotificadorSms.java             19               3               0              0                    2    0
+notificacao/OperacoesNotificacao.java        7               0               0              0                    0    0
+pagamento/GatewayPagamentoSimulado.java     62               7               2              7                    8    0
+pagamento/OperacoesPagamento.java           12               0               0              0                    0    0
+pagamento/Pagamento.java                    46               8               0              3                    7    0
+pagamento/PagamentoBoleto.java              30               4               0              2                    2    0
+pagamento/PagamentoCartao.java              16               2               0              2                    1    0
+pagamento/PagamentoPix.java                 28               4               0              4                    3    0
+pedido/Carrinho.java                         9               0               0              0                    1    0
+pedido/Item.java                            11               0               0              0                    0    0
+pedido/Pedido.java                          24               0               0              0                    1    0
+pedido/RepositorioPedidoMemoria.java        21               3               0              1                    2    0
+produto/Produto.java                        11               0               0              0                    0    0
+relatorio/RelatorioVendas.java              20               1               0              1                    0    0
+
+
+Arquivos Java de producao: 23
+Contagens lexicais: incluem bibliotecas e excecoes em new; nao provam conformidade SOLID.
+[
+    {
+        "Arquivo":  "cliente/Cliente.java",
+        "Linhas":  13,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "cliente/Endereco.java",
+        "Linhas":  8,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "desconto/Cupom.java",
+        "Linhas":  12,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "estoque/EstoqueMemoria.java",
+        "Linhas":  21,
+        "MetodosPublicos":  3,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  2,
+        "ConstrucoesConcretas":  3,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "fachada/LojaService.java",
+        "Linhas":  540,
+        "MetodosPublicos":  31,
+        "MetodosPrivados":  13,
+        "CondicionaisIf":  67,
+        "ConstrucoesConcretas":  61,
+        "DependenciasConcretas":  9,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "fiscal/EmissorNotaFiscal.java",
+        "Linhas":  22,
+        "MetodosPublicos":  3,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  1,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "frete/CalculadoraFrete.java",
+        "Linhas":  19,
+        "MetodosPublicos":  1,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  7,
+        "ConstrucoesConcretas":  1,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "notificacao/DespachanteNotificacao.java",
+        "Linhas":  11,
+        "MetodosPublicos":  2,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "notificacao/NotificadorEmail.java",
+        "Linhas":  19,
+        "MetodosPublicos":  3,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  2,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  1
+    },
+    {
+        "Arquivo":  "notificacao/NotificadorSms.java",
+        "Linhas":  19,
+        "MetodosPublicos":  3,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  2,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  1
+    },
+    {
+        "Arquivo":  "notificacao/OperacoesNotificacao.java",
+        "Linhas":  7,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  3,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "pagamento/GatewayPagamentoSimulado.java",
+        "Linhas":  62,
+        "MetodosPublicos":  7,
+        "MetodosPrivados":  2,
+        "CondicionaisIf":  7,
+        "ConstrucoesConcretas":  8,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "pagamento/OperacoesPagamento.java",
+        "Linhas":  12,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  8,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "pagamento/Pagamento.java",
+        "Linhas":  46,
+        "MetodosPublicos":  8,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  3,
+        "ConstrucoesConcretas":  7,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  4
+    },
+    {
+        "Arquivo":  "pagamento/PagamentoBoleto.java",
+        "Linhas":  30,
+        "MetodosPublicos":  4,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  2,
+        "ConstrucoesConcretas":  2,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "pagamento/PagamentoCartao.java",
+        "Linhas":  16,
+        "MetodosPublicos":  2,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  2,
+        "ConstrucoesConcretas":  1,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "pagamento/PagamentoPix.java",
+        "Linhas":  28,
+        "MetodosPublicos":  4,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  4,
+        "ConstrucoesConcretas":  3,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  1
+    },
+    {
+        "Arquivo":  "pedido/Carrinho.java",
+        "Linhas":  9,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  1,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "pedido/Item.java",
+        "Linhas":  11,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "pedido/Pedido.java",
+        "Linhas":  24,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  1,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "pedido/RepositorioPedidoMemoria.java",
+        "Linhas":  21,
+        "MetodosPublicos":  3,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  1,
+        "ConstrucoesConcretas":  2,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "produto/Produto.java",
+        "Linhas":  11,
+        "MetodosPublicos":  0,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  0,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    },
+    {
+        "Arquivo":  "relatorio/RelatorioVendas.java",
+        "Linhas":  20,
+        "MetodosPublicos":  1,
+        "MetodosPrivados":  0,
+        "CondicionaisIf":  1,
+        "ConstrucoesConcretas":  0,
+        "DependenciasConcretas":  0,
+        "MetodosInterface":  0,
+        "OperacoesNaoSuportadas":  0
+    }
+]
+Acesso negado.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< br.com.treino.solid:laboratorio-solid-java >-------------
+[INFO] Building laboratorio-solid-java 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ laboratorio-solid-java ---
+[INFO] skip non existing resourceDirectory C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\laboratorio-solid-java\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ laboratorio-solid-java ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ laboratorio-solid-java ---
+[INFO] skip non existing resourceDirectory C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\laboratorio-solid-java\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ laboratorio-solid-java ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ laboratorio-solid-java ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Identificadores
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s -- in br.com.treino.solid.fachada.LojaServiceTest$Identificadores
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$EfeitosERelatorios
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.130 s -- in br.com.treino.solid.fachada.LojaServiceTest$EfeitosERelatorios
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$EstoqueEEstados
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in br.com.treino.solid.fachada.LojaServiceTest$EstoqueEEstados
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Pagamentos
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in br.com.treino.solid.fachada.LojaServiceTest$Pagamentos
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$CalculosECupons
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s -- in br.com.treino.solid.fachada.LojaServiceTest$CalculosECupons
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$CarrinhosEItens
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in br.com.treino.solid.fachada.LojaServiceTest$CarrinhosEItens
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Cadastros
+[INFO] Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s -- in br.com.treino.solid.fachada.LojaServiceTest$Cadastros
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.479 s -- in br.com.treino.solid.fachada.LojaServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 141, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.497 s
+[INFO] Finished at: 2026-10-24T18:14:36-03:00
+[INFO] ------------------------------------------------------------------------
+
+src\main\java\br\com\treino\solid\fachada\LojaService.java:252:        } else if (resultado.equals("APROVADO")) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:404:            } else if 
+(item.categoria.equals("ALIMENTO")) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:408:            } else if 
+(item.categoria.equals("ELETRONICO")) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:424:            } else if (cupom.tipo.equals("FIXO")) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:426:            } else if (cupom.tipo.equals("FRETE")) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:447:        } else if ("VINTE".equals(codigo)) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:451:        } else if ("LIVRO15".equals(codigo)) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:456:        } else if ("FRETEGRATIS".equals(codigo)) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:459:        } else if ("VENCIDO".equals(codigo)) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:489:        } else if (pedido.notificacao.equals("SMS")) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:491:        } else if (pedido.notificacao.equals("AMBOS")) {
+src\main\java\br\com\treino\solid\fachada\LojaService.java:494:        } else if (pedido.notificacao.equals("NENHUM")) 
+{
+src\main\java\br\com\treino\solid\frete\CalculadoraFrete.java:10:        else if (Arrays.asList("PR", "SC", 
+"RS").contains(uf)) base = 15;
+src\main\java\br\com\treino\solid\frete\CalculadoraFrete.java:11:        else if (Arrays.asList("GO", 
+"DF").contains(uf)) base = 20;
+src\main\java\br\com\treino\solid\frete\CalculadoraFrete.java:12:        else if (Arrays.asList("BA", 
+"PE").contains(uf)) base = 25;
+src\main\java\br\com\treino\solid\frete\CalculadoraFrete.java:15:        else if (modalidade.equals("EXPRESSO")) 
+return BigDecimal.valueOf(base * 1.8).setScale(2, RoundingMode.HALF_UP).doubleValue();
+src\main\java\br\com\treino\solid\frete\CalculadoraFrete.java:16:        else if (modalidade.equals("NORMAL")) return 
+subtotal >= 300 ? 0 : base;
+src\main\java\br\com\treino\solid\pagamento\GatewayPagamentoSimulado.java:58:        else if ("CARTAO".equals(tipo)) 
+return new PagamentoCartao();
+src\main\java\br\com\treino\solid\pagamento\GatewayPagamentoSimulado.java:59:        else if ("BOLETO".equals(tipo)) 
+return new PagamentoBoleto();
+src\main\java\br\com\treino\solid\pagamento\Pagamento.java:10:        calcularParcela(valor, parcelas);
+src\main\java\br\com\treino\solid\pagamento\Pagamento.java:16:    public double calcularParcela(double valor, int 
+parcelas) {
+src\main\java\br\com\treino\solid\pagamento\Pagamento.java:21:    public void estornar(double valor) {
+src\main\java\br\com\treino\solid\pagamento\PagamentoBoleto.java:8:        calcularParcela(valor, parcelas);
+src\main\java\br\com\treino\solid\pagamento\PagamentoBoleto.java:9:        if (!"GERAR".equals(credencial) || parcelas 
+!= 1) throw new IllegalArgumentException();
+src\main\java\br\com\treino\solid\pagamento\PagamentoCartao.java:6:        calcularParcela(valor, parcelas);
+src\main\java\br\com\treino\solid\pagamento\PagamentoPix.java:5:    public double calcularParcela(double valor, int 
+parcelas) {
+src\main\java\br\com\treino\solid\pagamento\PagamentoPix.java:6:        if (parcelas != 1) throw new 
+IllegalArgumentException();
+src\main\java\br\com\treino\solid\pagamento\PagamentoPix.java:7:        return super.calcularParcela(valor, parcelas);
+src\main\java\br\com\treino\solid\pagamento\PagamentoPix.java:12:        calcularParcela(valor, parcelas);
+src\main\java\br\com\treino\solid\pagamento\PagamentoPix.java:19:    public void estornar(double valor) {
+src\main\java\br\com\treino\solid\pagamento\PagamentoPix.java:20:        if (valor > 0 && valor < saldo) throw new 
+UnsupportedOperationException();
+src\main\java\br\com\treino\solid\pagamento\OperacoesPagamento.java:4:    String autorizar(double valor, String 
+credencial, int parcelas);
+src\main\java\br\com\treino\solid\pagamento\OperacoesPagamento.java:5:    double calcularParcela(double valor, int 
+parcelas);
+src\main\java\br\com\treino\solid\pagamento\OperacoesPagamento.java:6:    void estornar(double valor);
+src\main\java\br\com\treino\solid\pagamento\OperacoesPagamento.java:7:    void cancelar();
+src\main\java\br\com\treino\solid\pagamento\OperacoesPagamento.java:8:    String gerarCodigoBarras(long pedidoId);
+src\main\java\br\com\treino\solid\pagamento\OperacoesPagamento.java:9:    String consultarCodigoBarras();
+src\main\java\br\com\treino\solid\pagamento\OperacoesPagamento.java:10:    boolean validarChavePix(String chave);
+src\main\java\br\com\treino\solid\pagamento\OperacoesPagamento.java:11:    boolean validarNumeroCartao(String numero);
+src\main\java\br\com\treino\solid\notificacao\OperacoesNotificacao.java:4:    void enviarEmail(String destino, String 
+texto);
+src\main\java\br\com\treino\solid\notificacao\OperacoesNotificacao.java:5:    void enviarSms(String destino, String 
+texto);
+src\main\java\br\com\treino\solid\notificacao\OperacoesNotificacao.java:6:    String consultarEnvios();
+src\main\java\br\com\treino\solid\notificacao\NotificadorEmail.java:13:        throw new 
+UnsupportedOperationException();
+src\main\java\br\com\treino\solid\notificacao\NotificadorSms.java:13:        throw new UnsupportedOperationException();
+src\main\java\br\com\treino\solid\pagamento\Pagamento.java:32:        throw new UnsupportedOperationException();
+src\main\java\br\com\treino\solid\pagamento\Pagamento.java:36:        throw new UnsupportedOperationException();
+src\main\java\br\com\treino\solid\pagamento\Pagamento.java:40:        throw new UnsupportedOperationException();
+src\main\java\br\com\treino\solid\pagamento\Pagamento.java:44:        throw new UnsupportedOperationException();
+src\main\java\br\com\treino\solid\pagamento\PagamentoPix.java:20:        if (valor > 0 && valor < saldo) throw new 
+UnsupportedOperationException();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:22:    private final RepositorioPedidoMemoria repositorio = 
+new RepositorioPedidoMemoria();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:23:    private final EstoqueMemoria estoque = new 
+EstoqueMemoria();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:24:    private final GatewayPagamentoSimulado pagamentos = 
+new GatewayPagamentoSimulado();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:25:    private final CalculadoraFrete calculadoraFrete = 
+new CalculadoraFrete();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:26:    private final NotificadorEmail email = new 
+NotificadorEmail();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:27:    private final NotificadorSms sms = new 
+NotificadorSms();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:28:    private final DespachanteNotificacao despachante = 
+new DespachanteNotificacao();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:29:    private final EmissorNotaFiscal emissor = new 
+EmissorNotaFiscal();
+src\main\java\br\com\treino\solid\fachada\LojaService.java:30:    private final RelatorioVendas relatorio = new 
+RelatorioVendas();
+Acesso negado.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< br.com.treino.solid:laboratorio-solid-java >-------------
+[INFO] Building laboratorio-solid-java 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ laboratorio-solid-java ---
+[INFO] skip non existing resourceDirectory C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\laboratorio-solid-java\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ laboratorio-solid-java ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ laboratorio-solid-java ---
+[INFO] skip non existing resourceDirectory C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\laboratorio-solid-java\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ laboratorio-solid-java ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ laboratorio-solid-java ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Identificadores
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s -- in br.com.treino.solid.fachada.LojaServiceTest$Identificadores
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$EfeitosERelatorios
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s -- in br.com.treino.solid.fachada.LojaServiceTest$EfeitosERelatorios
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$EstoqueEEstados
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in br.com.treino.solid.fachada.LojaServiceTest$EstoqueEEstados
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Pagamentos
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s -- in br.com.treino.solid.fachada.LojaServiceTest$Pagamentos
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$CalculosECupons
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s -- in br.com.treino.solid.fachada.LojaServiceTest$CalculosECupons
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$CarrinhosEItens
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s -- in br.com.treino.solid.fachada.LojaServiceTest$CarrinhosEItens
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Cadastros
+[INFO] Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in br.com.treino.solid.fachada.LojaServiceTest$Cadastros
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.483 s -- in br.com.treino.solid.fachada.LojaServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 141, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.531 s
+[INFO] Finished at: 2026-10-24T18:14:41-03:00
+[INFO] ------------------------------------------------------------------------
+Acesso negado.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------< br.com.treino.solid:laboratorio-solid-java >-------------
+[INFO] Building laboratorio-solid-java 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ laboratorio-solid-java ---
+[INFO] skip non existing resourceDirectory C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\laboratorio-solid-java\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ laboratorio-solid-java ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ laboratorio-solid-java ---
+[INFO] skip non existing resourceDirectory C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\laboratorio-solid-java\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ laboratorio-solid-java ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ laboratorio-solid-java ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Identificadores
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s -- in br.com.treino.solid.fachada.LojaServiceTest$Identificadores
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$EfeitosERelatorios
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s -- in br.com.treino.solid.fachada.LojaServiceTest$EfeitosERelatorios
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$EstoqueEEstados
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in br.com.treino.solid.fachada.LojaServiceTest$EstoqueEEstados
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Pagamentos
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s -- in br.com.treino.solid.fachada.LojaServiceTest$Pagamentos
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$CalculosECupons
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s -- in br.com.treino.solid.fachada.LojaServiceTest$CalculosECupons
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$CarrinhosEItens
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in br.com.treino.solid.fachada.LojaServiceTest$CarrinhosEItens
+[INFO] Running br.com.treino.solid.fachada.LojaServiceTest$Cadastros
+[INFO] Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.050 s -- in br.com.treino.solid.fachada.LojaServiceTest$Cadastros
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.484 s -- in br.com.treino.solid.fachada.LojaServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 141, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.530 s
+[INFO] Finished at: 2026-10-24T18:14:45-03:00
+[INFO] ------------------------------------------------------------------------
+
+

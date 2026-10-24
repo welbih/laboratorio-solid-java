@@ -1,0 +1,376 @@
+{
+  "base": {
+    "tests": 141,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "mutacoes": [
+    {
+      "nome": "frete-limiar",
+      "arquivo": "frete/CalculadoraFrete.java",
+      "antes": "subtotal >= 300",
+      "depois": "subtotal > 300",
+      "tests": 141,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "categoria-desconto",
+      "arquivo": "fachada/LojaService.java",
+      "antes": "valor * 0.05",
+      "depois": "valor * 0.04",
+      "tests": 141,
+      "failures": 3,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "cupom-validade",
+      "arquivo": "fachada/LojaService.java",
+      "antes": "pedido.data.isAfter(cupom.validade)",
+      "depois": "!pedido.data.isBefore(cupom.validade)",
+      "tests": 141,
+      "failures": 0,
+      "errors": 1,
+      "skipped": 0
+    },
+    {
+      "nome": "estoque-baixa",
+      "arquivo": "fachada/LojaService.java",
+      "antes": "estoque.consultar(item.produtoId) - item.quantidade",
+      "depois": "estoque.consultar(item.produtoId) + item.quantidade",
+      "tests": 141,
+      "failures": 7,
+      "errors": 1,
+      "skipped": 0
+    },
+    {
+      "nome": "arredondamento",
+      "arquivo": "fachada/LojaService.java",
+      "antes": "RoundingMode.HALF_UP",
+      "depois": "RoundingMode.DOWN",
+      "tests": 141,
+      "failures": 5,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "pix-recusado",
+      "arquivo": "pagamento/PagamentoPix.java",
+      "antes": "if (credencial.equals(\"RECUSAR\"))",
+      "depois": "if (credencial.equals(\"APROVAR\"))",
+      "tests": 141,
+      "failures": 13,
+      "errors": 1,
+      "skipped": 0
+    },
+    {
+      "nome": "nota-sequencia",
+      "arquivo": "fiscal/EmissorNotaFiscal.java",
+      "antes": "sequencia++",
+      "depois": "sequencia",
+      "tests": 141,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "sms-canal",
+      "arquivo": "notificacao/NotificadorSms.java",
+      "antes": "envios.add(\"SMS|\"",
+      "depois": "envios.add(\"EMAIL|\"",
+      "tests": 141,
+      "failures": 4,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "relatorio-estado",
+      "arquivo": "relatorio/RelatorioVendas.java",
+      "antes": "pedido.status.equals(\"PAGO\")",
+      "depois": "!pedido.status.equals(\"CANCELADO\")",
+      "tests": 141,
+      "failures": 2,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "restaurado": {
+    "tests": 141,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "locale_pt": {
+    "tests": 141,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "locale_en": {
+    "tests": 141,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "medidas": [
+    {
+      "Arquivo": "cliente/Cliente.java",
+      "Linhas": 13,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "cliente/Endereco.java",
+      "Linhas": 8,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "desconto/Cupom.java",
+      "Linhas": 12,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "estoque/EstoqueMemoria.java",
+      "Linhas": 21,
+      "MetodosPublicos": 3,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 2,
+      "ConstrucoesConcretas": 3,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "fachada/LojaService.java",
+      "Linhas": 540,
+      "MetodosPublicos": 31,
+      "MetodosPrivados": 13,
+      "CondicionaisIf": 67,
+      "ConstrucoesConcretas": 61,
+      "DependenciasConcretas": 9,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "fiscal/EmissorNotaFiscal.java",
+      "Linhas": 22,
+      "MetodosPublicos": 3,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 1,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "frete/CalculadoraFrete.java",
+      "Linhas": 19,
+      "MetodosPublicos": 1,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 7,
+      "ConstrucoesConcretas": 1,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "notificacao/DespachanteNotificacao.java",
+      "Linhas": 11,
+      "MetodosPublicos": 2,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "notificacao/NotificadorEmail.java",
+      "Linhas": 19,
+      "MetodosPublicos": 3,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 2,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 1
+    },
+    {
+      "Arquivo": "notificacao/NotificadorSms.java",
+      "Linhas": 19,
+      "MetodosPublicos": 3,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 2,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 1
+    },
+    {
+      "Arquivo": "notificacao/OperacoesNotificacao.java",
+      "Linhas": 7,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 3,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "pagamento/GatewayPagamentoSimulado.java",
+      "Linhas": 62,
+      "MetodosPublicos": 7,
+      "MetodosPrivados": 2,
+      "CondicionaisIf": 7,
+      "ConstrucoesConcretas": 8,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "pagamento/OperacoesPagamento.java",
+      "Linhas": 12,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 8,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "pagamento/Pagamento.java",
+      "Linhas": 46,
+      "MetodosPublicos": 8,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 3,
+      "ConstrucoesConcretas": 7,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 4
+    },
+    {
+      "Arquivo": "pagamento/PagamentoBoleto.java",
+      "Linhas": 30,
+      "MetodosPublicos": 4,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 2,
+      "ConstrucoesConcretas": 2,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "pagamento/PagamentoCartao.java",
+      "Linhas": 16,
+      "MetodosPublicos": 2,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 2,
+      "ConstrucoesConcretas": 1,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "pagamento/PagamentoPix.java",
+      "Linhas": 28,
+      "MetodosPublicos": 4,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 4,
+      "ConstrucoesConcretas": 3,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 1
+    },
+    {
+      "Arquivo": "pedido/Carrinho.java",
+      "Linhas": 9,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 1,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "pedido/Item.java",
+      "Linhas": 11,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "pedido/Pedido.java",
+      "Linhas": 24,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 1,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "pedido/RepositorioPedidoMemoria.java",
+      "Linhas": 21,
+      "MetodosPublicos": 3,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 1,
+      "ConstrucoesConcretas": 2,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "produto/Produto.java",
+      "Linhas": 11,
+      "MetodosPublicos": 0,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 0,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    },
+    {
+      "Arquivo": "relatorio/RelatorioVendas.java",
+      "Linhas": 20,
+      "MetodosPublicos": 1,
+      "MetodosPrivados": 0,
+      "CondicionaisIf": 1,
+      "ConstrucoesConcretas": 0,
+      "DependenciasConcretas": 0,
+      "MetodosInterface": 0,
+      "OperacoesNaoSuportadas": 0
+    }
+  ],
+  "bash_exit": 3221225794,
+  "branches_executadas": false,
+  "fontes_restaurados": true
+}
